@@ -1,6 +1,6 @@
 <template>
   <div class="core relative">
-    <img src="../assets/img/section1.jpg" alt="" class="absoluteimg">
+    <img src="../assets/img/section1.jpg" alt="" class="coreimg absoluteimg">
     <div class="core-left col-6">
       <h1>{{core_h1}}</h1>
       <p>{{core_p}}</p>
@@ -23,5 +23,8 @@ export default {
 
 <style lang="sass" scoped>
 //const
-
+.core
+  height: $height-core   
+.coreimg
+  height: $height-core
 </style>
