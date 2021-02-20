@@ -4,12 +4,13 @@
       <img src="@/assets/img/icons/parking1.svg" alt="">
     </div>
     <div class="vue-card__item text-center">
-      <h3 class="">АВТОМОБИЛЬНАЯ <br/>ПЛОЩАДКА</h3>
+      <!-- <h3 class="">АВТОМОБИЛЬНАЯ <br/>ПЛОЩАДКА</h3> -->
+      <slot name="name"></slot>
     </div>
     <div class="vue-card__item d-flex-column">
-      <R1C2imgtext img='/img/icons/add-circular-outlined-button.svg' p="Подготовка усиленного основания"/>
-      <R1C2imgtext img='/img/icons/add-circular-outlined-button.svg' p="Работы по укладке"/>
-      <R1C2imgtext img='/img/icons/no-circular-outlined-button.svg' p="Плитка не входит в стоимость"/>
+      <slot name="0" ></slot>
+      <slot name="1" ></slot>
+      <slot name="2" ></slot>
     </div>
     <div class="vue-card__item">
       <p ><span>от </span><span></span> руб/м<sup>2</sup></p>
@@ -18,15 +19,16 @@
 </template>
 
 <script>
-import R1C2imgtext from '@/views/default/R1C2imgtext'
+// import R1C2imgtext from '@/views/default/R1C2imgtext'
 export default {
   components: {
-    R1C2imgtext,
+    // R1C2imgtext,
   }
 }
 </script>
 
-<style lang="sass">
+<style lang="sass" scoped>
+
 .vue-card
   width: 310px
   // max-height: 450px
