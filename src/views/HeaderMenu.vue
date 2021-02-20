@@ -35,12 +35,10 @@ export default {
 
 <style lang="sass" scoped>
 
-//const
-$height-li: 60px
 $background-header-menu: rgb(241, 241, 241)
 .menu-item
   @include adaptiv-font(16, 14)
-  height: $height-li 
+  height: $menu-item
 .header-menu
   background: $background-header-menu
   border-top: 1px solid black

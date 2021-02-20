@@ -5,7 +5,7 @@
         <div class="col-3 header-item center header-logo"><a href=""><img src="../assets/img/logo1.png" alt=""></a></div>
         <div class="col-3 header-item center header-email"><span>{{email}}</span></div>
         <div class="col-3 header-item center header-phone"><img src="../assets/img/icons/auricular-phone-symbol-in-a-circle.svg" alt="" style="width: 20pt"><span>{{phone}}</span></div>
-        <div class="col-3 header-item center header-call"><Button/></div>
+        <div class="col-3 header-item center header-call"><Button class="radius"/></div>
         <!-- xs sm md lg xl -->
       </div>
     </div>
@@ -38,7 +38,7 @@ export default {
 <style lang="sass" scoped>
 
 //const
-$height-header: 90px
+
 $background-header: rgb(241, 241, 241)
 
 header
