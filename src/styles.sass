@@ -19,7 +19,9 @@ $mw5: 1200px
 // fonts
 
 // $fontfamily:''
-
+.container
+  // border-left: 2px solid green
+  // border-right: 2px solid green
 //Default styles  
 html, body 
   min-width: 320px
@@ -27,6 +29,8 @@ html, body
   height: auto
 html
   width: 100%
+h1
+  @include adaptiv-font(40, 30)
 img 
   max-width: 100%
   height: auto

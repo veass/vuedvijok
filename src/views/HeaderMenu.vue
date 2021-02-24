@@ -1,8 +1,8 @@
 <template>
-  <div class="header-menu">
+  <div class="header-menu d-none d-md-block">
     <nav class="container">
       <ul class="row d-flex flex-column flex-sm-column flex-md-column flex-lg-row flex-xl-row">
-        <li v-for="item in menu" :key="item" class="col-3 center text-uppercase menu-item ">
+        <li v-for="item in menu" :key="item" class="col center text-uppercase menu-item ">
           <a :href="item.href">{{item.text}}</a>
         </li>
       </ul>

@@ -1,11 +1,14 @@
 <template>
   <div class="core relative">
     <img src="../assets/img/section1.jpg" alt="" class="coreimg absoluteimg">
-    <div class="core-left col-6">
-      <h1>{{core_h1}}</h1>
-      <p>{{core_p}}</p>
+    <div class="core-container container">
+      <div class="row">
+        <div class="core-left col col-lg-6">
+          <h1>{{core_h1}}</h1>
+          <p>{{core_p}}</p>
+        </div>
+      </div>
     </div>
-    <div class="core-right col-6"></div>
   </div>
 </template>
 

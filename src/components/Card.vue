@@ -30,8 +30,8 @@ export default {
 <style lang="sass" scoped>
 
 .vue-card
-  width: 310px
-  // max-height: 450px
+  // width: 310px
+  min-height: 460px
   border-radius: 10px
   padding: 20px 40px 30px 40px
   background-color: white

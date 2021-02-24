@@ -1,54 +1,33 @@
 <template>
-  <div class="result">
-    <form class="col-8">
-      <div class="d-flex justify-content-center">
-        <div class="form-group">
-          <input type="text" class="name radius form-control" id="" placeholder="Ваше имя">
+  <div class="result d-flex flex-column container">
+    <FormR2C4 class="col-12 col-md-8"/>
+    <div class="right-result col-12 col-md-4">
+      <div class="center-right-result">
+        <div class="img-result">
+          <img alt="" data-src="rimake.by/wp-content/themes/remake/assets/img/icons/abacus.svg" class=" lazyloaded" src="rimake.by/wp-content/themes/remake/assets/img/icons/abacus.svg"><noscript><img src="rimake.by/wp-content/themes/remake/assets/img/icons/abacus.svg" alt=""></noscript>
         </div>
-        <div class="form-group">
-          <input type="text" class="phone radius form-control" id="" placeholder="Телефон">
-        </div>
-      </div>
-      <div class="d-flex justify-content-center">
-        <div class="form-group">
-          <div class="form-group">
-            <textarea class="form-control radius" id="" rows="5"  placeholder="Ваши пожелания"></textarea> <!--rows 1 - высота = 24px -->
-          </div>
-        </div>
-        <div class="form-group">
-          <button type="submit" class="raschet radius w310 btn btn-default">Отправить расчёт</button> 
-          <div class="w310">
-              <input type="checkbox" class="access radius" style="width: 20px">
-              <span>Согласен(а) на обработку персональных данных </span>
-          </div>
+        <div class="result-cost">
+          <h3>Итоговая стоимость:</h3>
+          <p><span class="result-pay"> 0 </span> руб.</p>
         </div>
       </div>
-    </form>
-    <div class="col-4">
-
     </div>
   </div>
 
 </template>
 
 <script>
+import FormR2C4 from '@/components/FormR2C4'
 export default {
-
+  components: {
+    FormR2C4
+  }
 }
 </script>
 
 <style lang="sass" scoped>
-.name, .phone, textarea, .w310
-  width: 310px !important;
-.raschet
-  background: #ff6600
-  color: white
 .result
-  padding: 40px 0px 0px 0px
-.result > form > div > div:nth-child(2)
-  margin: 0px 0px 0px 10px
-@media (max-width: 600px)
-  .result > form > div > div:nth-child(2)
-    margin: 0px 0px 0px 0px
+  padding: 50px 0px 0px 0px
+
 
 </style>
