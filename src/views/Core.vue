@@ -30,4 +30,11 @@ export default {
   height: $height-core   
 .coreimg
   height: $height-core
+.core-container
+  height: $height-core
+.core-left
+  display: flex
+  flex-direction: column
+  justify-content: center
+  height: $height-core
 </style>

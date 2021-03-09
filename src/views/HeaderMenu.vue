@@ -9,6 +9,7 @@
     </nav>
   </div>
   <MenuButton v-if="visible"/>
+  
 </template>
 
 <script>
@@ -18,9 +19,10 @@ export default {
     return{
       menu: [
         {text: 'Какую плитку выбрать?', href:'vidy-plitki'},
-        {text: 'Вопрос-ответ', href: 'vopros-otvet'},
+        {text: 'Цены', href: 'ceni'},
         {text: 'Как мы работаем?', href: 'kak-my-rabotaem'},
-        {text: 'О нас', href: 'o-nas'},
+        {text: 'Наши работы', href: 'nashi-raboti'},
+        {text: 'Личный кабинет', href: 'gdhfv'},
       ],
       visible: false     
     } 

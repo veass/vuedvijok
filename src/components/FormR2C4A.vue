@@ -8,13 +8,8 @@
         <input type="text" class="phone radius form-control" id="" placeholder="Телефон">
       </div>
     </div>
-    <div class="formr2c4-elem d-flex flex-column flex-lg-row justify-content-center">
-      <div class="form-group">
-        <div class="form-group">
-          <textarea class="form-control radius w310" id="" rows="5"  placeholder="Ваши пожелания"></textarea> <!--rows 1 - высота = 24px -->
-        </div>
-      </div>
-      <div class="form-group">
+    <div class="formr2c4-elem d-flex flex-lg-row justify-content-center">
+      <div class="form-group d-flex flex-row">
         <button type="submit" class="raschet radius w310 btn btn-default">Отправить расчёт</button> 
         <div class="w310">
             <input type="checkbox" class="access radius" style="width: 20px">

@@ -1,1 +1,1 @@
-export let r1c4Item = 'col-12 col-sm-10 col-md-6 col-lg-3 col-xl-3';
+export let r1c4Item = 'col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3';

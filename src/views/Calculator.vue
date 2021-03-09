@@ -1,7 +1,7 @@
 <template>
  <div class="calculator container">
   <h2>Расчет стоимости тротуарной плитки</h2>
-  <div class="calculator-row d-flex flex-wrap justify-content-center">
+  <div class="calculator-row row d-flex flex-wrap justify-content-center">
     <div :class="$db.r1c4Item">
       <Card style="">
         <template #name><h3 class="">АВТОМОБИЛЬНАЯ <br/>ПЛОЩАДКА</h3></template>
@@ -26,7 +26,7 @@
         <template #2><R1C2imgtext img='/img/icons/no-circular-outlined-button.svg' p="Плитка не входит в стоимость" /></template>
       </Card>
     </div>
-    <div :class="$db.r1c4Item">
+    <div :class="$db.r1c4Item" style="justify-content: space-between; display: flex; flex-direction: column;">
 
         <Card1 />
         <Card1 />
